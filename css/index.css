@@ -1,0 +1,73 @@
+*{
+    /* border: 1px solid black; */
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-color: dimgrey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    max-width: 700px;
+    
+}
+.m-t-1{
+    font-size: 124px;
+    font-weight: 900;
+    color: yellowgreen;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 0;
+
+}
+.image{
+    position: relative;
+    z-index: 1;
+    right: 20%;
+}
+.m-t-2 h4{
+    font-size: 40px;
+    color: yellowgreen;
+    text-align: center;
+
+}
+.m-t-2 p{
+    font-size: 25px;
+    color: white;
+    
+}
+.m-t-2{
+    position: absolute;
+    text-transform: capitalize;
+
+   
+}
+.locate{
+    left: 10px;
+    top: 300px;
+    z-index: 2;
+
+}
+.locate-1{
+    right: 7px;
+    top: 570px;
+    z-index: 2;
+
+}
+.locate-2{
+    bottom: 300px;
+    z-index: 2;
+}
+.barcode{
+    position: absolute;
+    bottom: 19px;
+    z-index: 2;
+    right: 30px;
+}
+.locate-3{
+    bottom:25px;
+    z-index: 2;
+    right: 140px;
+}
